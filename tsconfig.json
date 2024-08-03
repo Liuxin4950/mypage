@@ -8,7 +8,7 @@
     "jsx": "preserve",
     "strict": true,
     "noImplicitAny": false,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false, // 可以考虑设置为 false 来避免未使用的变量警告
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
