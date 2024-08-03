@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "strict": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "types": [
+      "webpack-env"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
