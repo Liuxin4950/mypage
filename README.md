@@ -31,3 +31,12 @@ npm run dev
 ```sh
 npm run build
 ```
+### 修改代码后编译提交命令
+```sh
+npm run build
+git add .
+git commit -m "Update base config for GitHub Pages"
+git push origin main
+npm run deploy
+
+```
