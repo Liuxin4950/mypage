@@ -42,7 +42,7 @@ function __VLS_template() {
     // @ts-ignore
     [search, query,];
     __VLS_elementAsFunction(__VLS_intrinsicElements.button, __VLS_intrinsicElements.button)({ ...{ onClick: (__VLS_ctx.search) }, ...{ class: ("search-but") }, });
-    __VLS_elementAsFunction(__VLS_intrinsicElements.img, __VLS_intrinsicElements.img)({ ...{ class: ("search-icon") }, src: ("../assets/icon/search.png"), alt: (""), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.img, __VLS_intrinsicElements.img)({ ...{ class: ("search-icon") }, src: ("../assets/icon/search1.svg"), alt: (""), });
     // @ts-ignore
     [search,];
     if (__VLS_ctx.showModal) {

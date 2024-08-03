@@ -117,7 +117,7 @@ watch(jumpBoxItems, saveJumpBoxItems, { deep: true });
   width: 100%;
   border: 2px solid #000;
   height: 100vh;
-  background: url('./assets/dls.png') no-repeat;
+  background: url('./assets/biz.avif') no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;

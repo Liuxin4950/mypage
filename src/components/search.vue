@@ -10,7 +10,7 @@
             </select>
             <input type="text" v-model="query" @keyup.enter="search" placeholder="输入搜索内容" />
             <button class="search-but" @click="search">
-                <img class="search-icon" src="../assets/icon/search.png" alt="">
+                <img class="search-icon" src="../assets/icon/search1.svg" alt="">
             </button>
 
         </div>
@@ -62,26 +62,26 @@ const search = () => {
 
 .search-box {
     width: 70%;
-    border: 1px solid #999;
+    border: 1px solid #555;
     border-radius: 5px;
-    box-shadow: 1px 1px 2px #aaa;
-    background-color: rgba(255, 255, 255, .9);
+    box-shadow: 1px 1px 3px #777;
+    background-color: rgba(0, 0, 0, .8);
     display: flex;
     align-items: center;
     overflow: hidden;
     /* padding: 2px; */
 
-
-
 }
 
 select {
+    color: #fafafa;
     width: 20%;
     height: 50px;
     background: none;
-    /* width: 90px; */
-    padding: 10px;
+    padding: 10px ;
     font-size: 16px;
+    transition: .5s;
+
 }
 
 input {
@@ -101,18 +101,23 @@ input {
     align-items: center;
     background-color: white;
     background: none;
+    transition: .5s;
 }
 
 
 
-/* .search-but:hover,
-.select:hover {
-    background-color: #f0f0f0;
-} */
+.search-but:hover,
+select:hover,
+.search-icon {
+    background-color: #000;
+    color: #5b92d6;
+    /* filter: hue-rotate(90deg) saturate(2) brightness(1.2); */
+}
 
 .search-icon {
     width: 30px;
     height: 30px;
+    background:none;
 }
 @media (min-width: 1024px) {
     
