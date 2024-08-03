@@ -3,7 +3,7 @@ import { defineStore } from 'pinia';
 
 export const useSearchStore = defineStore('search', {
     state: () => ({
-        selectedEngine: 'google',
+        selectedEngine: 'bing',
         query: ''
     }),
     actions: {

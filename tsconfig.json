@@ -10,9 +10,6 @@
     "noImplicitAny": false,
     "noUnusedLocals": true,
     "skipLibCheck": true,
-    "types": [
-      "webpack-env"
-    ],
     "baseUrl": ".",
     "paths": {
       "@/*": [
