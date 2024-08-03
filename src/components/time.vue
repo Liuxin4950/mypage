@@ -48,10 +48,13 @@
   
   <style scoped lang="scss">
   .current-time {
+    color: #fafafa;
       font-size: 4rem;
       text-align: center;
       line-height: 30px;
       margin-bottom: 2rem;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
+
   }
   .current-date{
     display: flex;
@@ -59,6 +62,9 @@
         padding: 0 5px;
         font-family: Arial;
         font-size: 1.1rem;
+        color: #fafafa;
+        text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
+
         // font-weight: bold;
     }
   }
