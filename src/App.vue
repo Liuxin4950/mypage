@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header :title="appTitle" />
+    <SearchBox />
     <div class="container">
       <TabContainer 
         :tabs="tabs" 
@@ -14,13 +15,15 @@
 <script>
 import Header from './components/Header.vue';
 import TabContainer from './components/TabContainer.vue';
+import SearchBox from './components/SearchBox.vue';
 import { APP_CONFIG, DEFAULT_TABS } from './utils/constants';
 
 export default {
   name: 'App',
   components: {
     Header,
-    TabContainer
+    TabContainer,
+    SearchBox
   },
   data() {
     return {
